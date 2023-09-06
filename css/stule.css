@@ -148,9 +148,14 @@
 }
 .div-header{
     display: flex;
+}
+.container{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.adres{
+    display: flex;
     align-items: center;
 }
 
@@ -161,12 +166,11 @@
 .menu{
     display: flex;
     gap: 40px;
-    align-items: center;
 }
 .body-li{
     padding: 24px 0;
 }
-.body-adres{
-    gap: 40px;
+.menu-adres{
     display: flex;
+    gap: 40px;
 }
