@@ -13,6 +13,7 @@
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 .logo-studio{
     color: #2e2f42 ;
@@ -138,4 +139,34 @@
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     text-decoration: none
+}
+.images{
+    display: block;
+}
+.header{
+    border-bottom: #e7e9fc;
+}
+.div-header{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.navig{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.body-li{
+    padding: 24px 0;
+}
+.body-adres{
+    gap: 40px;
+    display: flex;
 }
