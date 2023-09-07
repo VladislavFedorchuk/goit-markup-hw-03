@@ -61,6 +61,7 @@
 .section-one{
     background-color: #2e2f42;
     list-style: none;
+    padding: 188px 0;
 }
 .h-one{
     font-size: 56px;
@@ -69,6 +70,7 @@
     letter-spacing: 0.02em;
     color: #ffffff;
     list-style: none;
+    max-width: 496px;
 }
 .button{
     background-color: #4D5AE5;
@@ -78,6 +80,13 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
     cursor: pointer;
 }
 .button:hover{
@@ -93,6 +102,8 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
     list-style: none;
+    margin-bottom: 8px;
+    text-align: center;
 }
 .p-one{
     font-size: 16px;
@@ -100,10 +111,12 @@
     letter-spacing: 0.02em;
     color: #434455;    
     list-style: none;
+    text-align: center;
 }
 .section-tre{
     background-color: #F4F4FD;
     list-style: none;
+    padding: 120px 0;
 }
 .h-tu-one{
     font-size: 36px;
@@ -113,9 +126,12 @@
     text-transform: capitalize;
     color: #2e2f42;
     list-style: none;
+    margin-bottom: 72px;
 }
 .human-li{
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .footer{
     background-color: #2e2f42;
@@ -173,4 +189,21 @@
 .menu-adres{
     display: flex;
     gap: 40px;
+}
+.advantages-section{
+    padding: 120px 0;
+}
+.advantages-menu{
+    display: flex;
+    gap: 24px;
+}
+.advantages-list{
+    width: calc((100% - 72px) / 4);
+}
+.team-menu{
+    display: flex;
+    gap: 24px;
+}
+.human-div{
+    padding: 32px 0;
 }
