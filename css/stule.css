@@ -133,7 +133,7 @@
 }
 .human-li{
     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .footer{
@@ -169,7 +169,7 @@
 .header{
     border-bottom: 1px solid #e7e9fc
 }
-.div-header.container{
+.container.div-header{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -207,7 +207,7 @@
     gap: 24px;
 }
 .advantages-list{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 .team-menu{
     display: flex;
