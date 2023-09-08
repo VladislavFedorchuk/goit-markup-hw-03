@@ -27,6 +27,8 @@
     letter-spacing: 0.02em;
     list-style: none;
     text-decoration: none;
+    padding: 24px 0;
+    display: block;
     
 }
 .link-nav:hover{
@@ -63,7 +65,6 @@
     background-color: #2e2f42;
     list-style: none;
     padding: 188px 0;
-    display: flex;
     justify-content: center
 }
 .h-one{
@@ -74,6 +75,10 @@
     color: #ffffff;
     list-style: none;
     max-width: 496px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 .button{
     background-color: #4D5AE5;
@@ -91,6 +96,10 @@
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
     
 }
 .button:hover{
@@ -108,6 +117,7 @@
     list-style: none;
     margin-bottom: 8px;
     text-align: center;
+    margin: 0px;
 }
 .p-one{
     font-size: 16px;
@@ -115,12 +125,13 @@
     letter-spacing: 0.02em;
     color: #434455;    
     list-style: none;
-    text-align: center;
+    margin: 0px;
 }
 .section-tre{
     background-color: #F4F4FD;
     list-style: none;
     padding: 120px 0;
+    margin: 0px;
 }
 .h-tu-one{
     font-size: 36px;
@@ -147,6 +158,7 @@
     letter-spacing: 0.02em;
     list-style: none;
     max-width: 264px;
+    margin: 0px;
 }
 .studios{
     color: #f4f4fd;
@@ -177,7 +189,8 @@
 }
 .div-header{
     display: flex;
-    justify-content:space-around
+    align-items: center;
+    margin-left: auto;
 }
 .adres{
     display: flex;
