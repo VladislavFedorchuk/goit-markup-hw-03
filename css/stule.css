@@ -195,7 +195,7 @@
     list-style: none;
 }
 .body-li{
-    padding: 24px 0 24px;
+    padding: 24px 0;
 }
 .menu-adres{
     display: flex;
