@@ -49,6 +49,7 @@
     color: #434455;
     text-decoration: none;
     list-style: none;
+    padding: 24px 0;
 }
 .email-adres:hover{
     color: #404bbf;
