@@ -190,6 +190,9 @@
 .menu{
     display: flex;
     gap: 40px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .body-li{
     padding-top: 24px;
@@ -198,6 +201,9 @@
 .menu-adres{
     display: flex;
     gap: 40px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .advantages-section{
     padding: 120px 0;
@@ -205,6 +211,9 @@
 .advantages-menu{
     display: flex;
     gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .advantages-list{
     width: calc((100% - 3 * 24px) / 4);
@@ -212,6 +221,9 @@
 .team-menu{
     display: flex;
     gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .human-div{
     padding: 32px 0;
@@ -239,8 +251,10 @@
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
+    overflow: hidden;
   }
