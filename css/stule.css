@@ -116,6 +116,7 @@
     color: #2e2f42;
     list-style: none;
     margin-bottom: 8px;
+    text-align: center;
 }
 .p-one{
     font-size: 16px;
@@ -124,7 +125,7 @@
     color: #434455;    
     list-style: none;
     margin: 0px;
-    
+    text-align: center;
 }
 .section-tre{
     background-color: #F4F4FD;
